@@ -1,6 +1,3 @@
-# lcl-coq-parser
-
-``` mermaid
 graph TD
     A[Python Source Code] --> B[Python AST Parser]
     
@@ -14,7 +11,7 @@ graph TD
     F --> G[Coq AST]
     G --> H[Coq Source Code]
     
-    subgraph Parser Templates
+    subgraph Pattern Database
         I[(Common Pattern Templates)]
         J[(Theorem Templates)]
     end
@@ -27,4 +24,3 @@ graph TD
         K --> L[Proof Generator]
         L --> M[Verification Results]
     end
-```
